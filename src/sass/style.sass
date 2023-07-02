@@ -12,7 +12,7 @@ h1
     font-size: 30px
 h2
     font-size: 25px    
-header, footer, section
+section
     padding: 100px 0
 header
     padding: 200px 0
@@ -54,7 +54,7 @@ header, footer
     color: var(--bs-white)
     background-color: var(--color1)
     //О курсе
-.about, .shedule, .author
+.about, .shedule, .author, .buy
     background-color: #eee 
 .about i
     font-size: 25px 
@@ -92,9 +92,31 @@ header, footer
     border: 3px solid var(--color1)
     margin: 10px
 //Об авторе
-.author p, h4
+p, h4, ul
    margin: 30px
-   font-size: 20px
+   font-size: 20px 
+
+.author
+    padding-bottom: 0
+.itd_img
+    max-width: 200px
+// Отзывы
+.rounded
+    border-radius: 50% !important
+    border: 3px solid var(--color1)
+ul li:before 
+  content: '✓ ' 
+  margin-left: 15px 
+footer
+    padding: 30px 0  
+footer .btn 
+  display: inline-flex
+  justify-content: center
+  align-items: center
+  width: 40px
+  height: 40px
+  border-radius: 50%
+
 
 
 //Цвет
